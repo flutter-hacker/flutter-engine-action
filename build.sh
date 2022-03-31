@@ -7,7 +7,7 @@ cd $RUNNER_WORKSPACE
 pwd
 
 cd flutter_engine/src/flutter
-tools/gn --no-goma --no-prebuilt-dart-sdk --no-lto --unopt
+tools/gn --no-goma --no-lto --unopt
 ninja -C ../out/host_debug_unopt
 
 echo "All Done!"
