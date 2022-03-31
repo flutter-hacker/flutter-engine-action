@@ -3,7 +3,7 @@
 set -v # show current command
 echo pwd:`pwd`
 ls -l
-cd ..
+cd $RUNNER_WORKSPACE
 
 mkdir flutter_engine && cd flutter_engine
 cat > .gclient << "EOF"
