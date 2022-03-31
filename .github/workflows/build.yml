@@ -41,8 +41,7 @@ jobs:
       uses: actions/checkout@v2
     - uses: ./
       with:
-        channel: any
-        flutter-version: 2
+        flutter-engine-revision: main
     - name: Run dart --version
       shell: bash
       run: dart --version
