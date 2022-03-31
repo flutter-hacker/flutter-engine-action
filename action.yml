@@ -11,5 +11,9 @@ inputs:
 runs:
   using: 'composite'
   steps:
+    - run: $GITHUB_ACTION_PATH/setup.sh
+      shell: bash
+    - run: $GITHUB_ACTION_PATH/sync.sh
+      shell: bash
     - run: $GITHUB_ACTION_PATH/build.sh
       shell: bash
