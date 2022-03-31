@@ -5,7 +5,7 @@ echo pwd:`pwd`
 cat /proc/cpuinfo
 
 ls -l
-cd ..
+cd $RUNNER_WORKSPACE
 pwd
 git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 ls -l
