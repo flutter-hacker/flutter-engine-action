@@ -2,6 +2,8 @@
 
 set -v # show current command
 echo pwd:`pwd`
+cat /proc/cpuinfo
+
 ls -l
 cd ..
 pwd
