@@ -4,6 +4,10 @@ author: 'eggfly'
 branding:
   icon: 'maximize'
   color: 'blue'
+inputs:
+  flutter-engine-revision:
+    description: 'The revision of flutter engine git repo.'
+    required: false
 runs:
   using: 'composite'
   steps:
