@@ -1,0 +1,11 @@
+name: 'Flutter Engine Action'
+description: 'Setup environment and build Flutter Engine'
+author: 'eggfly'
+branding:
+  icon: 'maximize'
+  color: 'blue'
+runs:
+  using: 'composite'
+  steps:
+    - run: $GITHUB_ACTION_PATH/build.sh
+      shell: bash
