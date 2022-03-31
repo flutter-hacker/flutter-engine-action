@@ -42,9 +42,6 @@ jobs:
     - uses: ./
       with:
         flutter-engine-revision: main
-    - name: Run dart --version
+    - name: Run Goodbye!
       shell: bash
-      run: dart --version
-    - name: Run flutter --version
-      shell: bash
-      run: flutter --version
+      run: echo Goodbye!
