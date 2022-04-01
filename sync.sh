@@ -21,4 +21,5 @@ solutions = [
 EOF
 
 gclient sync -D -f
+
 echo "gclient sync finished!"
