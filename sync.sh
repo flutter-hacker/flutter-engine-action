@@ -1,7 +1,8 @@
 #!/bin/bash
 
 set -v # show current command
-echo pwd:`pwd`
+
+pwd
 ls -l
 cd $RUNNER_WORKSPACE
 
