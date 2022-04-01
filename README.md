@@ -1,4 +1,4 @@
 # flutter-engine-action
 
-[![Build Flutter Engine](https://github.com/flutter-hacker/flutter-engine-action/actions/workflows/build.yml/badge.svg)](https://github.com/flutter-hacker/flutter-engine-action/actions/workflows/build.yml)
-[![Build Flutter Engine](https://github.com/flutter-hacker/flutter-engine-action/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/flutter-hacker/flutter-engine-action/actions/workflows/build.yml)
+[![Flutter Linux Host Engine](https://github.com/flutter-hacker/flutter-engine-action/actions/workflows/build_linux.yml/badge.svg)](https://github.com/flutter-hacker/flutter-engine-action/actions/workflows/build_linux.yml)
+[![Flutter Windows Host Engine](https://github.com/flutter-hacker/flutter-engine-action/actions/workflows/build_windows.yml/badge.svg?branch=main)](https://github.com/flutter-hacker/flutter-engine-action/actions/workflows/build_windows.yml)
