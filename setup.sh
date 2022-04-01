@@ -3,6 +3,8 @@
 set -v # show current command
 echo pwd:`pwd`
 cat /proc/cpuinfo
+df -h
+free -h
 
 ls -l
 cd $RUNNER_WORKSPACE
