@@ -8,7 +8,14 @@ cd $RUNNER_WORKSPACE
 pwd
 
 cd flutter_engine/src/flutter
+git status
+git rev-parse HEAD
+git rev-parse --short HEAD
+
 tools/gn --no-goma --no-lto --unopt
+
+df -h
+
 ninja -C ../out/host_debug_unopt
 
 df -h
